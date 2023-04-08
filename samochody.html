@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Samochodowa</title>
+    <link rel="stylesheet" href="samochody.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <h1>Strona Samochodowa</h1>
+        <nav>
+            <ul>
+                <li><a href="#Europa">Marki Europejskie</a></li>
+                <li><a href="#Ameryka">Marki Amerykańskie</a></li>
+                <li><a href="#Tabela">Najpopularniejsze Auta w 2023 roku</a></li>
+                <li><a href="#Polecane">Polecane Modele</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+         </nav>
+    </header>
+
+
+    <main>
+        <section id="Europa">
+            <h2>Marki Europejskie</h2>
+                <ul>
+                    <li><a href="https://www.bmw.pl/pl/index.html"target="_blank">BMW</a></li>
+                    <li><a href="https://www.audi.pl/pl/web/pl.html"target="_blank">Audi</a></li>
+                    <li><a href="https://www.mercedes-benz.pl/passengercars.html?group=all&subgroup=see-all&view=BODYTYPE"target="_blank">Mercedes-Benz</a></li>
+                    <li><a href="https://www.lamborghini.com/en-en"target="_blank">Lamborghini</a></li>
+                </ul>
+        </section>
+
+        <section id="Ameryka">
+            <h2>Marki Amerykańskie</h2>
+                <ul>
+                    <li><a href="https://www.dodge.com" target="_blank">Dodge</a></li>
+                    <li><a href="https://www.ford.pl"target="_blank">Ford</a></li>
+                    <li><a href="https://www.chevrolet.pl"target="_blank">Chevrolet</a></li>
+                    <li><a href="https://www.jeep.pl"target="_blank">Jeep</a></li>
+                </ul>
+        </section>
+
+
+        <section id="Tabela">
+            <h2>Njapopularniejsze Auta w 2023 roku</h2>
+            <table border="1">
+                
+                <tr>
+                <th>Marka</th>
+                <th>Model</th>
+                </tr>
+               
+                <tr>
+                    <td>BMW</td>
+                    <td>M2 Coupe</td>
+                </tr>
+                <tr>
+                    <td>Audi</td>
+                    <td>A5</td>
+                </tr>
+                <tr>
+                    <td>Mercedes-Benz</td>
+                    <td>Klasa C</td>
+                </tr>
+                 
+            </table>
+
+        </section>
+
+        <section id="Polecane">
+            <h2>Polecane Modele</h2>
+            <p>Naciśnij na zdjęcie wybranego modelu aby dowiedzieć się więcej.</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.mercedes-benz.pl/passengercars/models/suv/g-class/overview.html" target="_blank">
+                        <img src="Polecane1.jpg" alt="MercedesGklasa">
+                        </a>
+                    </li>  
+
+                    <li>
+                        <a href="https://www.bmw.pl/pl/all-models/m-series/m8-gran-coupe/2022/modele-m-bmw-serii-8-coupe-przeglad.html" target="_blank">
+                        <img src="Polecane2.jpg" alt="BMWm8">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.dodge.com/challenger.html" target="_blank">
+                        <img src="Polecane3.jpg" alt="DodgeChallenger">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <hr>
+
+
+        <section id="Kontakt">
+            <H2>Kontakt</H2>
+                <form>
+                   <label for="name">imie i nazwisko</label>
+                   <input type="text" id="name" name="name" required>
+
+                   <label for="email">Adres e-mail:</label>
+                   <input type="email" id="email" name="email" required>
+                 
+                   <label for="message">Wiadomość:</label>
+                   <textarea id="message" name="message" required></textarea>
+                   <button type="submit">Wyślij</button>
+                </form> 
+        </section>
+
+        <hr>
+
+    </main>
+
+    <footer>
+       <p>&copy;Samochody2023</p>
+    </footer>
+
+    
+</body>
+
+
+</html>
